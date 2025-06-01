@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dexter Morgan: A Case Study in ASPD / Psychopathy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        /* Inter font import from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        /* Custom font for the entire page */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+            color: #333;
+            line-height: 1.6;
+        }
+        /* Custom styles for the conceptual diagram */
+        .diagram-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-top: 2rem;
+        }
+        .diagram-node {
+            background-color: #a7f3d0; /* Light green */
+            padding: 1rem 1.5rem;
+            border-radius: 0.75rem;
+            text-align: center;
+            font-weight: 600;
+            color: #065f46; /* Dark green text */
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            min-width: 150px;
+            flex-grow: 1;
+        }
+        .diagram-arrow {
+            font-size: 2rem;
+            color: #6b7280; /* Gray */
+        }
+        /* Responsive adjustments for diagram nodes */
+        @media (min-width: 768px) {
+            .diagram-node {
+                flex-grow: 0; /* Prevent nodes from growing too much on larger screens */
+            }
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden">
+        <header class="bg-gradient-to-r from-blue-600 to-purple-700 text-white p-6 rounded-t-xl text-center">
+            <h1 class="text-4xl font-extrabold mb-2">Dexter Morgan: A Case Study in ASPD / Psychopathy</h1>
+            <p class="text-lg">By [Eyad Mohamed]</p>
+        </header>
+
+        <section class="p-6 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Identified Disorder</h2>
+            <div class="flex flex-col md:flex-row items-start gap-6">
+                <div class="md:w-2/3 w-full text-left font-inter">
+                    <p class="text-gray-700 mb-2">
+                        Dexter Morgan is best identified with Antisocial Personality Disorder (ASPD), specifically exhibiting strong Psychopathic Traits.
+                    </p>
+                    <p class="text-gray-700 mb-2">
+                        In clinical terms, Dexter's behaviors and psychological profile align closely with the diagnostic criteria for ASPD as outlined in the DSM-5 (Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition).
+                    </p>
+                    <p class="text-gray-700">
+                        The term "Psychopathy" is often used to describe a subset of individuals with ASPD who display particularly pronounced affective and interpersonal traits, such as a profound lack of empathy, superficial charm, grandiosity, and manipulativeness, which are all hallmarks of Dexter's character.
+                    </p>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_1_1200x1200/public/field_blog_entry_teaser_image/2022-06/istockphoto-1178499546-612x612.jpeg.jpg?itok=XUULCgAS" alt="Symbolic image of a mask representing dual personality" class="rounded-lg shadow-md w-full max-w-[300px]" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+Error';">
+                </div>
+            </div>
+        </section>
+
+        <section class="p-6 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Key Symptoms Demonstrated</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128298;</span> Pattern of Law-Breaking / Violent Behavior</h3>
+                    <p class="text-gray-700 mb-1">Dexter regularly murders criminals (e.g., the "Ice Truck Killer," "Trinity Killer") without remorse, viewing it as a necessary act of justice.</p>
+                    <p class="text-gray-700">He routinely breaks into suspects’ homes, tampers with evidence, and expertly evades police investigations to maintain his hidden life.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#127917;</span> Deceit and Manipulativeness</h3>
+                    <p class="text-gray-700 mb-1">Dexter maintains a meticulously crafted double life: a forensic analyst by day and a vigilante serial killer by night.</p>
+                    <p class="text-gray-700">He constantly lies to colleagues, friends, and romantic partners about his true nature and his "Dark Passenger," creating elaborate cover stories.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128683;</span> Lack of Remorse or Guilt</h3>
+                    <p class="text-gray-700 mb-1">Dexter feels virtually no genuine guilt or regret after killing, even when confronted by loved ones.</p>
+                    <p class="text-gray-700">His only concern regarding his actions is the potential for them to "blow his cover" or disrupt his carefully constructed life.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128528;</span> Shallow Affect / Limited Emotional Range</h3>
+                    <p class="text-gray-700 mb-1">He displays a flat emotional response in situations that would typically evoke strong feelings, such as his mother’s killer’s trial.</p>
+                    <p class="text-gray-700">His capacity for empathy appears to be learned and intellectualized through the "Harry Code," rather than an innate emotional response.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#9889;</span> Impulsivity and Poor Behavioral Controls</h3>
+                    <p class="text-gray-700 mb-1">Dexter often begins stalking a target with minimal planning beyond the immediate urge to "find a victim, kill, and clean up."</p>
+                    <p class="text-gray-700">He frequently struggles to resist his urges to kill, especially when confronted by what he perceives as a "perfect kill" opportunity.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128737;</span> Fearlessness / High Threshold for Danger</h3>
+                    <p class="text-gray-700 mb-1">He walks into dangerous murder scenes or confronts violent criminals in their homes with minimal hesitation or apparent fear.</p>
+                    <p class="text-gray-700">Dexter faces potential arrest or death with remarkable equanimity (e.g., confronting Jordan Chase’s followers in Season 5).</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128081;</span> Grandiose Sense of Self / Superiority</h3>
+                    <p class="text-gray-700 mb-1">He firmly believes he is uniquely qualified and morally justified to "cleanse" society of those who escape conventional justice.</p>
+                    <p class="text-gray-700">Dexter frequently compares himself to a superior predator, stating, “I am the animal that hunts other animals.”</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-6 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Who Is Dexter Morgan?</h2>
+            <div class="flex flex-col md:flex-row items-start gap-6">
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Basic Profile</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1 mb-4">
+                        <li>Name: Dexter Morgan</li>
+                        <li>Occupation (Cover Role): Forensic Blood Spatter Analyst at Miami Metro Police Department</li>
+                        <li>Alternate Role (“Dark Passenger”): A vigilante serial killer who exclusively targets other murderers and criminals who have evaded justice.</li>
+                    </ul>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">What Does He Do in the Story/Media?</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Works alongside his sister, Detective Debra Morgan, analyzing crime scenes.</li>
+                        <li>Identifies and researches criminals he deems to "deserve" death.</li>
+                        <li>Follows the "Harry Code" to ensure he only kills those who have taken innocent lives, channeling his urges constructively.</li>
+                        <li>Maintains various relationships (romantic, friendships, professional) while meticulously hiding his murderous side.</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 flex flex-col gap-4">
+                    <img src="https://static.wikia.nocookie.net/dexter/images/0/06/Season_7_Photo_Promo.jpg/revision/latest?cb=20240714125943" alt="Dexter as a forensic analyst" class="rounded-lg shadow-md w-full" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/cccccc/333333?text=Image+Error';">
+                    <img src="https://www.fangoria.com/wp-content/uploads/2024/03/dexter.jpg" alt="Dexter as a vigilante killer" class="rounded-lg shadow-md w-full" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/cccccc/333333?text=Image+Error';">
+                </div>
+            </div>
+        </section>
+
+        <section class="p-6 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Backstory & Past Traumas</h2>
+            <div class="flex flex-col md:flex-row items-start gap-6">
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Early Childhood Trauma</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1 mb-4">
+                        <li>At age three, Dexter witnessed the brutal murder of his biological mother, Laura Moser, aboard a cargo ship.</li>
+                        <li>He was abandoned and left for dead in a pool of his mother's blood, a profoundly traumatic experience that shaped his development.</li>
+                    </ul>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Adoptive Father (Harry Morgan)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1 mb-4">
+                        <li>Harry recognized Dexter’s emerging homicidal fantasies and "lack of empathy."</li>
+                        <li>He taught Dexter the "Harry Code": to channel his urges by only killing "bad" people (other murderers).</li>
+                        <li>Harry role-modeled policing ethics, teaching Dexter how to cover up his tracks, plan kills, and control impulses.</li>
+                    </ul>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Relationship to Prominent Trauma</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1 mb-4">
+                        <li>His mother’s murder implanted deep, primal violence and emotional detachment.</li>
+                        <li>Harry's conditioning cemented Dexter's dark impulses into an unbreakable code, instilling a sense of "why" to kill but not how to feel remorse.</li>
+                    </ul>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2">Other Significant Traumas</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-1">
+                        <li>Witnessing Mother’s Death: This foundational trauma left a lasting imprint of fear, confusion, and a profound connection between death and his identity.</li>
+                        <li>Harry’s Behavioral Conditioning: Harry’s mentorship both suppressed random violence and legitimized his urges as justice, creating conflicted loyalty and emotional emptiness.</li>
+                        <li>Romantic Losses & Abandonment: The murder of his wife, Rita (Season 4), deeply retraumatized him, highlighting his inherent difficulty in forming genuine emotional bonds.</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 flex flex-col gap-4">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOULVWiUzUMfJesGUC0eLjy-S6RGtcVQ5nPGgL00QfHASd_L-Nq5RxQ3nmAEBC1HAj1PsxsuWwgugF7Gc_zSWAz0V0GBqDBn7CDvJHjaJnrRx8ZJXHDWnRWTE_hVQL491A-NQII5l8bDINes104oTpR_DK9OkkNG2n0Uov8yzGG_7GTjEEbAbvXqBPWWJY/s800/dominic-janes-dexter.png" alt="Symbolic image of childhood trauma" class="rounded-lg shadow-md w-full" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/cccccc/333333?text=Image+Error';">
+                    <img src="https://preview.redd.it/about-harry-morgans-character-v0-m3jsr0pvhvvd1.jpeg?auto=webp&s=0eb31fda432551c063761eab6b3dc83cce5041c0" alt="Symbolic image of a mentor's influence" class="rounded-lg shadow-md w-full" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/cccccc/333333?text=Image+Error';">
+                </div>
+            </div>
+        </section>
+
+        <section class="p-6 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Possible Causes of the Disorder</h2>
+            <p class="text-gray-700 mb-6">
+                No single cause fully explains psychopathy; it's a complex interplay of genetics, early brain development, and traumatic conditioning. In Dexter’s case, Harry both “saved” him and unknowingly cemented his dark impulses into an unbreakable code.
+            </p>
+
+            <div class="diagram-container">
+                <div class="diagram-node">Biological Factors</div>
+                <div class="diagram-arrow">↔</div>
+                <div class="diagram-node">Early Childhood Trauma</div>
+                <div class="diagram-arrow">↔</div>
+                <div class="diagram-node">Parental Conditioning</div>
+                <div class="diagram-arrow">↔</div>
+                <div class="diagram-node">Attachment Issues</div>
+                <div class="diagram-arrow">↔</div>
+                <div class="diagram-node">Cognitive Factors</div>
+            </div>
+
+            <div class="overflow-x-auto mt-8">
+                <table class="min-w-full bg-white rounded-lg shadow-md">
+                    <thead>
+                        <tr class="bg-blue-100 text-blue-800 uppercase text-sm leading-normal">
+                            <th class="py-3 px-6 text-left rounded-tl-lg">Factor</th>
+                            <th class="py-3 px-6 text-left rounded-tr-lg">Explanation</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700 text-sm font-light">
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-normal font-medium">Biological Factors (Genetic/Neurobiological)</td>
+                            <td class="py-3 px-6 text-left whitespace-normal">Brain imaging (if extrapolated) would show reduced activity in the amygdala (affect regulation) and prefrontal cortex (impulse control). There's potential for a hereditary predisposition toward atypical emotional processing.</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-normal font-medium">Early Childhood Trauma</td>
+                            <td class="py-3 px-6 text-left whitespace-normal">Witnessed extreme violence at age 3—trauma at a critical developmental stage can fundamentally alter emotional wiring. This includes the profound impact of abandonment and the lack of a nurturing mother figure post-trauma.</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-normal font-medium">Parental Modeling & Conditioning (Environmental/Psychological)</td>
+                            <td class="py-3 px-6 text-left whitespace-normal">Harry’s deliberate reinforcement of murder as an acceptable outlet for Dexter's urges was a powerful environmental influence. Constant secrecy and duplicity taught Dexter that empathy and genuine emotion were weaknesses to be masked.</td>
+                        </tr>
+                        <tr class="border-b border-gray-200 hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-normal font-medium">Attachment Issues</td>
+                            <td class="py-3 px-6 text-left whitespace-normal">The early loss of his biological mother and subsequent adoption created insecure attachment patterns, leading Dexter to struggle profoundly with forming genuine emotional bonds. His attachment to Harry taught him to "mask" emotions rather than truly experience them.</td>
+                        </tr>
+                        <tr class="hover:bg-gray-100">
+                            <td class="py-3 px-6 text-left whitespace-normal font-medium">Cognitive Factors</td>
+                            <td class="py-3 px-6 text-left whitespace-normal">Over time, Dexter develops rigid rationalizations for his actions, believing "my victims deserve it." He holds a strong conviction that the world is corrupt, which morally justifies his violence and strengthens his antisocial cognitions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="p-6 border-b border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Suggested Treatment & Prognosis</h2>
+            <p class="text-gray-700 mb-4 italic">
+                **Important Clinical Note:** In real-world psychiatry, individuals with pronounced psychopathic traits (characterized by cognitive/interpersonal deficits and shallow affect) are notoriously resistant to standard treatments. This section outlines an idealized approach for academic understanding.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128717;</span> Therapeutic Interventions</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                        <li>Cognitive Behavioral Therapy (CBT):** Focus on challenging and reshaping Dexter’s dysfunctional beliefs ("It is my right to kill," "I feel nothing"). Teach alternative coping mechanisms (e.g., impulse control techniques, anger management).</li>
+                        <li>Dialectical Behavior Therapy (DBT):** Would emphasize distress tolerance and emotional regulation, though Dexter’s emotional deficits would make DBT particularly challenging.</li>
+                        <li>Schema Therapy: Address deep-seated schemas around abandonment, mistrust, and entitlement.</li>
+                        <li>Empathy Training / Group Therapy:** In a secure forensic setting, small group sessions might attempt to cultivate empathy (e.g., role-playing, perspective-taking). Progress would be slow; high drop-out risk.</li>
+                    </ul>
+
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128138;</span> Pharmacological Options</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li data-markdown-parse>**No medications "cure" ASPD/psychopathy.**</li>
+                        <li data-markdown-parse>**Adjunctive Medications:** Mood stabilizers (e.g., lithium) or atypical antipsychotics (e.g., risperidone) could manage aggression/irritability. SSRIs might modestly reduce impulsivity.</li>
+                        <li data-markdown-parse>*Dexter would likely refuse meds, believing he doesn’t "need" help.*</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://static.wikia.nocookie.net/dexter/images/f/f5/Emmett_Meridian_helps_Dexter_deal_with_his_control_and_intimacy_issues.jpg/revision/latest/scale-to-width-down/250?cb=20171128045721" alt="Symbolic image of a therapy session" class="rounded-lg shadow-md w-full mb-4" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/400x250/cccccc/333333?text=Image+Error';">
+
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#129293;</span> Environmental & Social Support</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 mb-4">
+                        <li data-markdown-parse>**Forensic Psychiatric Supervision:** Because of his homicidal risk, he’d require a secure psychiatric facility with constant monitoring.</li>
+                        <li data-markdown-parse>**Structured Routine & Monitoring:** This would involve 24/7 observation, highly structured activity schedules, and strict behavioral contracts.</li>
+                        <li data-markdown-parse>**Family Therapy:** With Debra (if she remained in his life) to foster genuine attachment and provide a challenging, yet potentially supportive, environment.</li>
+                    </ul>
+
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-2 flex items-center"><span class="mr-2 text-2xl">&#128200;</span> Prognosis & Realities</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li data-markdown-parse>True psychopathic ASPD patients rarely form lasting therapeutic alliances.</li>
+                        <li data-markdown-parse>Even with intensive treatment, “core” traits (lack of empathy, shallow affect) tend to persist.</li>
+                        <li data-markdown-parse>**Realistic Goal:** Containment of violent urges rather than full "cure." Focus on risk management: teach nonviolent outlets (e.g., highly supervised volunteer work) and strengthen any budding attachments (e.g., to Harrison, his son).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Conclusion / Reflection</h2>
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <div class="md:w-2/3">
+                    <p class="text-gray-700 mb-4">
+                        Recap:Dexter Morgan exemplifies a classic case of psychopathic Antisocial Personality Disorder, a complex condition profoundly shaped by a unique blend of severe early childhood trauma and deliberate behavioral conditioning by his adoptive father.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        Real-Life Implications: While a fictional character, Dexter highlights the profound challenges faced by mental health professionals in understanding, diagnosing, and effectively treating individuals with psychopathic traits, particularly their resistance to conventional therapeutic approaches.
+                    </p>
+                    <p class="text-gray-700 font-semibold text-lg">
+                        Critical Question for Discussion: Given the deep-seated nature of psychopathy and Dexter's background, can empathy ever truly be taught or developed in someone like him, or is his condition fundamentally unchangeable, leaving only management as a viable option?
+                    </p>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <img src="https://static.wikia.nocookie.net/villains/images/1/15/DexterMorgan1.jpeg/revision/latest?cb=20240423032729" alt="Symbolic image of reflection" class="rounded-lg shadow-md w-full max-w-[300px]" loading="lazy" onerror="this.onerror=null;this.src='https://placehold.co/300x200/cccccc/333333?text=Image+Error';">
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-gray-800 text-white p-4 text-center text-sm rounded-b-xl">
+            <p>&copy; Created by Eyad Mohamed</p>
+        </footer>
+    </div>
+
+    <script>
+        // Function to parse markdown content for elements with 'data-markdown-parse' attribute
+        document.addEventListener('DOMContentLoaded', () => {
+            // Select all elements that have the 'data-markdown-parse' attribute
+            document.querySelectorAll('[data-markdown-parse]').forEach(element => {
+                // Get the raw text content from the element
+                const markdownText = element.textContent;
+                // Parse the markdown text into HTML using marked.js
+                const htmlContent = marked.parse(markdownText);
+                // Replace the element's innerHTML with the parsed HTML
+                element.innerHTML = htmlContent;
+            });
+        });
+    </script>
+
+</body>
+</html>
